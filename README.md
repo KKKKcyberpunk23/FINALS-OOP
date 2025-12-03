@@ -1,4 +1,4 @@
----
+
 ## Carwash Management System
 **Carwash Management System** – A console-based Java application to manage vehicle transactions, daily summaries, and service pricing for a carwash business.
 
