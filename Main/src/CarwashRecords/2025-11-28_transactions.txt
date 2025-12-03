@@ -1,0 +1,3 @@
+toyota,Black,Car,INVALID SERVICE,0.00
+kawasaki,black,Motorcycle,INVALID SERVICE,250.00
+Smash,white,Car,REGULAR CARWASH,250.00

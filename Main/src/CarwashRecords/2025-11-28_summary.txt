@@ -1,0 +1,7 @@
+DAILY SUMMARY
+-------------------------------
+Total Transactions: 3
+Regular CarWash: 1
+CarWash w/ Buffing Wax: 0
+Engine Wash: 0
+Total Revenue: 500.00
