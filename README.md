@@ -1,5 +1,7 @@
 
-## Carwash Management System
+## <img width="1300" height="700" alt="ChatGPT Image Dec 3, 2025, 12_08_32 AM" src="https://github.com/user-attachments/assets/4f80bced-a480-44eb-9964-3ff87420d0c3" />
+
+# Carwash Management System
 **Carwash Management System** – A console-based Java application to manage vehicle transactions, daily summaries, and service pricing for a carwash business.
 
 ---
@@ -290,7 +292,7 @@ While the current system provides core functionalities for managing vehicle tran
 - **Advanced Reporting:** Include dynamic reports, charts, and statistics for better insights into daily, weekly, and monthly transactions.
 - **Online Booking and Payment:** Integrate online booking and payment functionalities to streamline customer experience.
 ---
-## Members
+## "BubbleBytes Members"
 
 | Name                 | Role                |
 |---------------------|---------------------|
