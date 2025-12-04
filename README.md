@@ -1,13 +1,18 @@
 
 #                 <img src="https://github.com/user-attachments/assets/fb320ea0-0b1c-49c7-bac1-203125de2bab" width="1000">
 
+<div align="center">
 
-# 🚗Carwash Management System💨💨
-**Carwash Management System** – A console-based Java application to manage vehicle transactions, daily summaries, and service pricing for a carwash business.
+# 🚗 Carwash Management System 💨💨
+
+A console-based Java application to manage vehicle transactions, daily summaries,  
+and service pricing for a carwash business.
+
+</div>
 
 ---
 
-## 💦Description / Overview
+## 🔅Description / Overview
 This project is a **Java-based Carwash Management System** designed to help carwash businesses track customer vehicles, manage daily transactions, and calculate revenues efficiently.  
 Key features include:
 
@@ -19,47 +24,50 @@ Key features include:
 
 It solves the problem of **manual record-keeping** and helps automate reporting and pricing calculations.
 
+<div align="center">
+    
 ## 🧑‍💻Program Structure
 
+</div>
 
 `Main` – Entry point of the program, handles user input, menu navigation, and calls relevant classes/methods.
 ```
-BSU/
+📂BSU/
 │
-├── README.md
+├── 📖README.md
 │
-├── DATA_store/
-│   ├── dataSummary.txt
-│   └── transactions.txt
+├── 📂DATA_store/
+│   ├── 💬dataSummary.txt
+│   └── 💬transactions.txt
 │
-├── Main/
+├── 📂Main/
 │   │
-│   ├── src/
-│   │   ├── Car.java
-│   │   ├── Custom.java
-│   │   ├── FileHandler.java
-│   │   ├── Main.java
-│   │   ├── Motorcycle.java
-│   │   ├── PriceInfo.java
-│   │   ├── Van.java
-│   │   └── Vehicle.java
+│   ├── 📂src/
+│   │   ├── ☕Car.java
+│   │   ├── ☕Custom.java
+│   │   ├── ☕FileHandler.java
+│   │   ├── ☕Main.java
+│   │   ├── ☕Motorcycle.java
+│   │   ├── ☕PriceInfo.java
+│   │   ├── ☕Van.java
+│   │   └── ☕Vehicle.java
 │   │
-│   ├── MainAndClasses/       (compiled .class files)
-│   │   ├── Car.class
-│   │   ├── Custom.class
-│   │   ├── FileHandler.class
-│   │   ├── Main.class
-│   │   ├── Motorcycle.class
-│   │   ├── PriceInfo.class
-│   │   ├── Van.class
-│   │   └── Vehicle.class
+│   ├── 📂MainAndClasses/       (compiled .class files)
+│   │   ├── 🚗Car.class
+│   │   ├── ❓Custom.class
+│   │   ├── 🗃️FileHandler.class
+│   │   ├── ⛑️Main.class
+│   │   ├── 🛵Motorcycle.class
+│   │   ├── 🪙PriceInfo.class
+│   │   ├── 🚐Van.class
+│   │   └── 🛞Vehicle.class
 │   │
-│   └── CarwashRecords/       (generated daily records)
-│       ├── 2025-11-28_summary.txt
-│       ├── 2025-11-28_transactions.txt
-│       └── (future generated files)
+│   └── 📂CarwashRecords/       (generated daily records)
+│       ├── 📋2025-11-28_summary.txt
+│       ├── 📋2025-11-28_transactions.txt
+│       └── 📋(future generated files)
 ```
-### 🛵Helper Classes
+### 🔅Helper Classes
 | Class | Role |
 |-------|------|
 | `Vehicle` | Base class for all vehicle types. |
@@ -70,7 +78,13 @@ BSU/
 | `FileHandler` | Handles saving and loading transactions and summaries. |
 | `PriceInfo` | Displays pricing tables for services. |
 
+
+<div align="center">
+    
 ## 🗝️Key Features
+
+</div> 
+
 ### ➕1. Add Customer Vehicle
 Register a new vehicle with customizable details. Supported types:
 
@@ -93,7 +107,7 @@ Modify any saved transaction:
     Change service (auto recalculates price)
     The system provides a live preview of all updated information.
 
-### 🐈3. Show All Transactions
+### 🌱3. Show All Transactions
 
 Displays all transactions for the current day in a formatted table showing:
 
@@ -136,8 +150,16 @@ The system automatically:
     Saves every update instantly
     Generates and stores daily summaries for record-keeping
 ---
+
+
+<div align="center">
+    
 ## 🔭3. OOP Concepts Applied
+
 The project applies **Object-Oriented Programming (OOP)** principles as follows:
+
+</div>
+
 ```
                                             ┌───────────────────┐
                                             │    Vehicle        │  ← Abstract Class (Abstraction)
@@ -178,7 +200,7 @@ The project applies **Object-Oriented Programming (OOP)** principles as follows:
                                             └─────────────────────┘   
       
 ```
-### 🧑‍🍼3.1 Inheritance
+### 🔅3.1 Inheritance
 - `Car`, `Motorcycle`, `Van`, and `Custom` classes inherit from the **`Vehicle`** base class.
 - Shared properties like `brand`, `color`, and `service` are defined in `Vehicle`.
 ```
@@ -188,7 +210,7 @@ public class Van extends Vehicle { ... }
 public class Custom extends Vehicle { ... }
 ```
 
-### 🚘3.2 Polymorphism
+### 🔅3.2 Polymorphism
 - **Runtime Polymorphism**: `Vehicle vehicles = new Car(...)` allows different types of vehicles to be handled uniformly.
 - Methods like `displaySummary()` are overridden in subclasses for vehicle-specific behavior.
 ```
@@ -205,7 +227,7 @@ dailyRecords.get(today).add(vehicles);
 vehicles.displaySummary(); // METHOD OVERRIDING – different output for Car, Motorcycle, Van, Custom
 
 ```
-### 🧝3.3 Encapsulation
+### 🔅3.3 Encapsulation
 - Fields such as `brand`, `color`, and `price` are private with public getter and setter methods.
 - Ensures proper control over how data is accessed and modified.
 ```
@@ -223,7 +245,7 @@ void setService(String serviceChoices) { this.serviceChoices = serviceChoices; }
 
 ```
 
-### 🎯3.4 Abstraction
+### 🔅3.4 Abstraction
 - The `Vehicle` class serves as an abstract blueprint for different vehicle types.
 - Users interact with higher-level methods without worrying about subclass implementations.
 ```
@@ -239,9 +261,13 @@ public abstract class Vehicle {
 
 ```
 ---
-# 🌻Sample Output
 
-### Start
+<div align="center">
+    
+# 💦Sample Output
+
+</div>
+
 ```
 ******************************************************************************
                 CARWASH MANAGEMENT SYSTEM
@@ -280,7 +306,12 @@ Enter Car's Size (SML/MED/LRGE): MED
 Transaction Successfully Saved!
 ```
 ---
+
+<div align="center">
+    
 ## 🏆Acknowledgements
+
+</div>
 
 ### 👩‍🏫Instructor
 We would like to extend our sincere gratitude to our instructor Ms. Christiana Grace Alib for providing invaluable guidance, mentorship, and support throughout the development of this project. Their expertise in Object-Oriented Programming principles, coding best practices, and problem-solving strategies greatly contributed to the success of our work.
@@ -288,7 +319,7 @@ We would like to extend our sincere gratitude to our instructor Ms. Christiana G
 ### 👨‍🎓Group Members
 This project was developed collaboratively by our team. We appreciate the dedication and effort of all group members in areas including system design, coding, testing, debugging, and documentation. The teamwork, communication, and creativity of each member were essential in bringing this project to completion.
 
-## 🔨Future Enhancements
+### 🔨Future Enhancements
 While the current system provides core functionalities for managing vehicle transactions efficiently, there are several potential improvements that could be implemented in future versions:
 
 - **Graphical User Interface (GUI):** Transition from a console-based system to a user-friendly GUI to enhance usability and accessibility.
@@ -296,13 +327,13 @@ While the current system provides core functionalities for managing vehicle tran
 - **Advanced Reporting:** Include dynamic reports, charts, and statistics for better insights into daily, weekly, and monthly transactions.
 - **Online Booking and Payment:** Integrate online booking and payment functionalities to streamline customer experience.
 ---
-## 🫧"BubbleBytes Members"🫧
+## 🫧 **"BubbleBytes Members"** 🫧
 
-| Name | Avatar |
-|------|--------|
-| **Anaviso, Justin Mark T.** | <img width="200" height="200" src="https://github.com/user-attachments/assets/fc1131d8-8e37-46c0-9a79-2aaa01f2cd87" /> |
-| **Borillo, Emman** | <img width="200" height="200" src="https://github.com/user-attachments/assets/d242bdc6-61b9-4a9c-8b82-8392012d7b3f" /> |
-| **Magnaye, Mark Ian** | <img width="200" height="200" src="https://github.com/user-attachments/assets/c654bc31-ecef-4fe7-88f6-9197db5810f1" /> |
+| Name | Avatar | Role | GitHub |
+|------|--------|-------|--------|
+| **Anaviso, Justin Mark T.** | <img width="200" height="200" src="https://github.com/user-attachments/assets/fc1131d8-8e37-46c0-9a79-2aaa01f2cd87" /> | Assistant Lead Programmer / Logic & Calculations | <a href="https://github.com/KKKKcyberpunk23"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" /></a> |
+| **Borillo, Emman** | <img width="200" height="200" src="https://github.com/user-attachments/assets/d242bdc6-61b9-4a9c-8b82-8392012d7b3f" /> | Lead Programmer / Logic & Calculations | <a href="https://github.com/Emman-21"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" /></a> |
+| **Magnaye, Mark Ian** | <img width="200" height="200" src="https://github.com/user-attachments/assets/c654bc31-ecef-4fe7-88f6-9197db5810f1" /> | Project Presenter | <a href="https://github.com/MarkIan-01"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" /></a> |
 
 
 
