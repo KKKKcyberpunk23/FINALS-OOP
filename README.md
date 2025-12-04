@@ -327,11 +327,16 @@ While the current system provides core functionalities for managing vehicle tran
 - **Advanced Reporting:** Include dynamic reports, charts, and statistics for better insights into daily, weekly, and monthly transactions.
 - **Online Booking and Payment:** Integrate online booking and payment functionalities to streamline customer experience.
 ---
+
+<div align="center">
+    
 ## 🫧 **"BubbleBytes Members"** 🫧
+
+</div>
 
 | Name | Avatar | Role | GitHub |
 |------|--------|-------|--------|
-| **Anaviso, Justin Mark T.** | <img width="200" height="200" src="https://github.com/user-attachments/assets/fc1131d8-8e37-46c0-9a79-2aaa01f2cd87" /> | Assistant Lead Programmer / Logic & Calculations | <a href="https://github.com/KKKKcyberpunk23"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" /></a> |
+| **Anaviso, Justin Mark T.** | <img width="200" height="200" src="https://github.com/user-attachments/assets/fc1131d8-8e37-46c0-9a79-2aaa01f2cd87" /> | Assistant Programmer / Logic & Calculations | <a href="https://github.com/KKKKcyberpunk23"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" /></a> |
 | **Borillo, Emman** | <img width="200" height="200" src="https://github.com/user-attachments/assets/d242bdc6-61b9-4a9c-8b82-8392012d7b3f" /> | Lead Programmer / Logic & Calculations | <a href="https://github.com/Emman-21"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" /></a> |
 | **Magnaye, Mark Ian** | <img width="200" height="200" src="https://github.com/user-attachments/assets/c654bc31-ecef-4fe7-88f6-9197db5810f1" /> | Project Presenter | <a href="https://github.com/MarkIan-01"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" /></a> |
 
