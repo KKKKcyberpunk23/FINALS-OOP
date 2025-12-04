@@ -1,5 +1,6 @@
 
-## <img width="1300" height="700" alt="ChatGPT Image Dec 3, 2025, 12_08_32 AM" src="https://github.com/user-attachments/assets/4f80bced-a480-44eb-9964-3ff87420d0c3" />
+#                 <img src="https://github.com/user-attachments/assets/fb320ea0-0b1c-49c7-bac1-203125de2bab" width="1000">
+
 
 # 🚗Carwash Management System💨💨
 **Carwash Management System** – A console-based Java application to manage vehicle transactions, daily summaries, and service pricing for a carwash business.
@@ -297,9 +298,12 @@ While the current system provides core functionalities for managing vehicle tran
 ---
 ## 🫧"BubbleBytes Members"🫧
 
-| Name                 | Role                |
-|---------------------|---------------------|
-| **Anaviso, Justin Mark T.** | MAGE                |
-| **Borillo, Emman**         | MARKMASN STRATEGIST |
-| **Magnaye, Mark Ian**      | TANK                |
+| Name | Avatar |
+|------|--------|
+| **Anaviso, Justin Mark T.** | <img width="200" height="200" src="https://github.com/user-attachments/assets/fc1131d8-8e37-46c0-9a79-2aaa01f2cd87" /> |
+| **Borillo, Emman** | <img width="200" height="200" src="https://github.com/user-attachments/assets/d242bdc6-61b9-4a9c-8b82-8392012d7b3f" /> |
+| **Magnaye, Mark Ian** | <img width="200" height="200" src="https://github.com/user-attachments/assets/c654bc31-ecef-4fe7-88f6-9197db5810f1" /> |
+
+
+
 
