@@ -1,12 +1,12 @@
 
 ## <img width="1300" height="700" alt="ChatGPT Image Dec 3, 2025, 12_08_32 AM" src="https://github.com/user-attachments/assets/4f80bced-a480-44eb-9964-3ff87420d0c3" />
 
-# Carwash Management System
+# 🚗Carwash Management System💨💨
 **Carwash Management System** – A console-based Java application to manage vehicle transactions, daily summaries, and service pricing for a carwash business.
 
 ---
 
-## Description / Overview
+## 💦Description / Overview
 This project is a **Java-based Carwash Management System** designed to help carwash businesses track customer vehicles, manage daily transactions, and calculate revenues efficiently.  
 Key features include:
 
@@ -18,7 +18,7 @@ Key features include:
 
 It solves the problem of **manual record-keeping** and helps automate reporting and pricing calculations.
 
-## Program Structure
+## 🧑‍💻Program Structure
 
 
 `Main` – Entry point of the program, handles user input, menu navigation, and calls relevant classes/methods.
@@ -58,7 +58,7 @@ BSU/
 │       ├── 2025-11-28_transactions.txt
 │       └── (future generated files)
 ```
-### Helper Classes
+### 🛵Helper Classes
 | Class | Role |
 |-------|------|
 | `Vehicle` | Base class for all vehicle types. |
@@ -69,8 +69,8 @@ BSU/
 | `FileHandler` | Handles saving and loading transactions and summaries. |
 | `PriceInfo` | Displays pricing tables for services. |
 
-## Key Features
-### 1. Add Customer Vehicle
+## 🗝️Key Features
+### ➕1. Add Customer Vehicle
 Register a new vehicle with customizable details. Supported types:
 
     Car (SML / MED / LRGE)
@@ -83,7 +83,7 @@ Register a new vehicle with customizable details. Supported types:
     Carwash w/ Buffing Wax
     Engine Wash (not available for motorcycles)
 
-### 2. Edit Existing Transactions
+### 🔎2. Edit Existing Transactions
 
 Modify any saved transaction:
 
@@ -92,7 +92,7 @@ Modify any saved transaction:
     Change service (auto recalculates price)
     The system provides a live preview of all updated information.
 
-### 3. Show All Transactions
+### 🐈3. Show All Transactions
 
 Displays all transactions for the current day in a formatted table showing:
 
@@ -105,7 +105,7 @@ Displays all transactions for the current day in a formatted table showing:
     Automatically saved to:
     transactions.txt
 
-### 4. Daily Summary & Report
+### 🗒️4. Daily Summary & Report
 
 Generates a complete daily performance summary:
 
@@ -116,7 +116,7 @@ Generates a complete daily performance summary:
     Saved automatically to:
     dataSummary.txt
 
-### 5. Price Information
+### 💰5. Price Information
 
 Provides the full pricing breakdown for:
 
@@ -127,7 +127,7 @@ Provides the full pricing breakdown for:
     Custom vehicles
     Includes all service-based price adjustments.
 
-### 6. File Handling Integration
+### 🗃️6. File Handling Integration
 
 The system automatically:
 
@@ -135,46 +135,49 @@ The system automatically:
     Saves every update instantly
     Generates and stores daily summaries for record-keeping
 ---
-## 3. OOP Concepts Applied
+## 🔭3. OOP Concepts Applied
 The project applies **Object-Oriented Programming (OOP)** principles as follows:
 ```
-┌───────────────────┐
-│    Vehicle        │  ← Abstract Class (Abstraction)
-│------------------│
-│ - brand           │  ← Encapsulation
-│ - color           │  ← Encapsulation
-│ - serviceChoices  │  ← Encapsulation
-│------------------│
-│ + getBrand()      │
-│ + setBrand()      │
-│ + getColor()      │
-│ + setColor()      │
-│ + getService()    │
-│ + setService()    │
-│ + displaySummary()│  ← Abstract Method
-└────────┬─────────┘
-│
-┌───────────────┼───────────────┐
-│               │               │
-┌─────────┐     ┌────────────┐   ┌────────┐
-│   Car   │     │ Motorcycle │   │  Van   │
-│---------│     │------------│   │--------│
-│ + size  │     │ + hasSideCars │ │        │
-│ + price │     │ + price      │   │ + price│
-│---------│     │------------│   │--------│
-│ + displaySummary() │ + displaySummary() │ + displaySummary() │
-└─────────┘     └────────────┘   └────────┘
-│
-│
-┌─────────┐
-│  Custom │
-│---------│
-│ + vehicle │
-│ + price   │
-│ + displaySummary() │
-└─────────┘
+                                            ┌───────────────────┐
+                                            │    Vehicle        │  ← Abstract Class (Abstraction)
+                                            │-------------------│ 
+                                            │ - brand           │  ← Encapsulation
+                                            │ - color           │  ← Encapsulation
+                                            │ - serviceChoices  │  ← Encapsulation
+                                            │-------------------│
+                                            │ + getBrand()      │
+                                            │ + setBrand()      │
+                                            │ + getColor()      │
+                                            │ + setColor()      │
+                                            │ + getService()    │
+                                            │ + setService()    │
+                                            │ + displaySummary()│  ← Abstract Method
+                                            └─────────┬─────────┘
+                                                      │         
+             ─────────────────────────────────────────┼───────────────────────────────────────────────┐ 
+             |                                        |                                               |
+    ┌───────────────────────┐              ┌─────────────────────┐                         ┌────────────────────┐    
+    │      Car              │              │     Motorcycle      │                         │        Van         │    
+    │-----------------------│              │---------------------│                         │--------------------│   
+    │ + size (SML/MED/LRGE) |              │ + hasSideCars       │                         │                    │    
+    │ + price               │              │ + price             │                         │ + price            │   
+    │-----------------------|              │---------------------│                         │--------------------│    
+    │ + displaySummary()    │              | + displaySummary()  |                         │ + displaySummary() │    
+    └───────────────────────┘              └─────────────────────┘                         └────────────────────┘ 
+          |                                            |                                               |
+          |────────────────────────────────────────────┼───────────────────────────────────────────────|
+                                                       |
+                                            ┌─────────────────────┐ 
+                                            |       Custom        |
+                                            |---------------------|
+                                            |  + size             |
+                                            |  + price            |
+                                            |---------------------|
+                                            | +  displaySummary() |
+                                            └─────────────────────┘   
+      
 ```
-### 3.1 Inheritance
+### 🧑‍🍼3.1 Inheritance
 - `Car`, `Motorcycle`, `Van`, and `Custom` classes inherit from the **`Vehicle`** base class.
 - Shared properties like `brand`, `color`, and `service` are defined in `Vehicle`.
 ```
@@ -184,11 +187,11 @@ public class Van extends Vehicle { ... }
 public class Custom extends Vehicle { ... }
 ```
 
-### 3.2 Polymorphism
+### 🚘3.2 Polymorphism
 - **Runtime Polymorphism**: `Vehicle vehicles = new Car(...)` allows different types of vehicles to be handled uniformly.
 - Methods like `displaySummary()` are overridden in subclasses for vehicle-specific behavior.
 ```
-        Vehicle vehicles;
+Vehicle vehicles;
 
 switch(vehicleChoice){
     case "1" -> vehicles = new Car(brand, color, size, serviceChoices);
@@ -201,7 +204,7 @@ dailyRecords.get(today).add(vehicles);
 vehicles.displaySummary(); // METHOD OVERRIDING – different output for Car, Motorcycle, Van, Custom
 
 ```
-### 3.3 Encapsulation
+### 🧝3.3 Encapsulation
 - Fields such as `brand`, `color`, and `price` are private with public getter and setter methods.
 - Ensures proper control over how data is accessed and modified.
 ```
@@ -219,7 +222,7 @@ void setService(String serviceChoices) { this.serviceChoices = serviceChoices; }
 
 ```
 
-### 3.4 Abstraction
+### 🎯3.4 Abstraction
 - The `Vehicle` class serves as an abstract blueprint for different vehicle types.
 - Users interact with higher-level methods without worrying about subclass implementations.
 ```
@@ -235,7 +238,7 @@ public abstract class Vehicle {
 
 ```
 ---
-# Sample Output
+# 🌻Sample Output
 
 ### Start
 ```
@@ -276,15 +279,15 @@ Enter Car's Size (SML/MED/LRGE): MED
 Transaction Successfully Saved!
 ```
 ---
-## Acknowledgements
+## 🏆Acknowledgements
 
-### Instructor
-We would like to extend our sincere gratitude to our instructor for providing invaluable guidance, mentorship, and support throughout the development of this project. Their expertise in Object-Oriented Programming principles, coding best practices, and problem-solving strategies greatly contributed to the success of our work.
+### 👩‍🏫Instructor
+We would like to extend our sincere gratitude to our instructor Ms. Christiana Grace Alib for providing invaluable guidance, mentorship, and support throughout the development of this project. Their expertise in Object-Oriented Programming principles, coding best practices, and problem-solving strategies greatly contributed to the success of our work.
 
-### Group Members
+### 👨‍🎓Group Members
 This project was developed collaboratively by our team. We appreciate the dedication and effort of all group members in areas including system design, coding, testing, debugging, and documentation. The teamwork, communication, and creativity of each member were essential in bringing this project to completion.
 
-## Future Enhancements
+## 🔨Future Enhancements
 While the current system provides core functionalities for managing vehicle transactions efficiently, there are several potential improvements that could be implemented in future versions:
 
 - **Graphical User Interface (GUI):** Transition from a console-based system to a user-friendly GUI to enhance usability and accessibility.
@@ -292,7 +295,7 @@ While the current system provides core functionalities for managing vehicle tran
 - **Advanced Reporting:** Include dynamic reports, charts, and statistics for better insights into daily, weekly, and monthly transactions.
 - **Online Booking and Payment:** Integrate online booking and payment functionalities to streamline customer experience.
 ---
-## "BubbleBytes Members"
+## 🫧"BubbleBytes Members"🫧
 
 | Name                 | Role                |
 |---------------------|---------------------|
