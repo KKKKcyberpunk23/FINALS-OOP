@@ -17,7 +17,7 @@ Key features include:
 - Saves transactions and summaries to text files for persistence.
 
 It solves the problem of **manual record-keeping** and helps automate reporting and pricing calculations.
----
+
 ## Program Structure
 
 
@@ -92,7 +92,7 @@ Modify any saved transaction:
     Change service (auto recalculates price)
     The system provides a live preview of all updated information.
 
-3. Show All Transactions
+### 3. Show All Transactions
 
 Displays all transactions for the current day in a formatted table showing:
 
@@ -105,7 +105,7 @@ Displays all transactions for the current day in a formatted table showing:
     Automatically saved to:
     transactions.txt
 
-4. Daily Summary & Report
+### 4. Daily Summary & Report
 
 Generates a complete daily performance summary:
 
@@ -116,7 +116,7 @@ Generates a complete daily performance summary:
     Saved automatically to:
     dataSummary.txt
 
-5. Price Information
+### 5. Price Information
 
 Provides the full pricing breakdown for:
 
@@ -127,7 +127,7 @@ Provides the full pricing breakdown for:
     Custom vehicles
     Includes all service-based price adjustments.
 
-6. File Handling Integration
+### 6. File Handling Integration
 
 The system automatically:
 
