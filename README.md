@@ -5,14 +5,23 @@
 
 # 🚗 Carwash Management System 💨💨
 
-A console-based Java application to manage vehicle transactions, daily summaries,  
-and service pricing for a carwash business.
+A console-based Java application to manage vehicle transactions, daily summaries, and service pricing for a carwash business.
 
 </div>
 
+<p align="center">
+  <code>💧 Console Based Application</code> &nbsp;&nbsp; 
+</p>
+
+<p align="center">
+  <b>🛠️ Tech Stack:</b> 
+  <code>🍵 Java </code> &nbsp;
+  <code>🎨 Database </code> &nbsp;
+</p>
+
 ---
 
-## 🔅Description / Overview
+## `🔅Description / Overview`
 This project is a **Java-based Carwash Management System** designed to help carwash businesses track customer vehicles, manage daily transactions, and calculate revenues efficiently.  
 Key features include:
 
@@ -26,7 +35,7 @@ It solves the problem of **manual record-keeping** and helps automate reporting 
 
 <div align="center">
     
-## 🧑‍💻Program Structure
+## `🧑‍💻Program Structure`
 
 </div>
 
@@ -81,7 +90,7 @@ It solves the problem of **manual record-keeping** and helps automate reporting 
 
 <div align="center">
     
-## 🗝️Key Features
+## `🗝️Key Features`
 
 </div> 
 
@@ -154,7 +163,7 @@ The system automatically:
 
 <div align="center">
     
-## 🔭3. OOP Concepts Applied
+## `🔭3. OOP Concepts Applied`
 
 The project applies **Object-Oriented Programming (OOP)** principles as follows:
 
@@ -264,7 +273,7 @@ public abstract class Vehicle {
 
 <div align="center">
     
-# 💦Sample Output
+# `💦Sample Output`
 
 </div>
 
@@ -309,7 +318,7 @@ Transaction Successfully Saved!
 
 <div align="center">
     
-## 🏆Acknowledgements
+## `🏆Acknowledgements`
 
 </div>
 
@@ -330,7 +339,7 @@ While the current system provides core functionalities for managing vehicle tran
 
 <div align="center">
     
-## 🫧 **"BubbleBytes Members"** 🫧
+## `🫧 BubbleBytes Members 🫧`
 
 </div>
 
